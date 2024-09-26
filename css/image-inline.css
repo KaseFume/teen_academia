@@ -1,0 +1,16 @@
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%; /* Adjust as needed */
+}
+
+.image-container img {
+    max-width: 125px; /* Set a max width for images */
+    margin: 20px 35px; /* Space between images */
+    border-radius: 20%;
+    transition: box-shadow 0.3s ease;
+}
+.image-container img:hover{
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}

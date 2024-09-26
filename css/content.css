@@ -1,0 +1,94 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    gap: 0px;
+    padding: 0px;
+}
+.grid-item-2{
+    min-width: 106.25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #bababa;
+    padding: 20px;
+    gap: 20px;
+    margin: 0px !important;
+    padding: 20px;
+    background-color: #151410;
+}
+
+/* Ensure each grid item contains text and image side by side */
+.grid-item {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #bababa;
+    padding: 20px;
+    gap: 20px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grid-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.grid-item-image{
+    margin: 0px !important;
+    padding: 0px;
+}
+.grid-item-image img{
+    width: 100%;
+}
+.grid-item p {
+    margin-bottom: 20px;
+}
+
+.cta {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Responsive Design for Mobile */
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-item {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-item img {
+        margin-bottom: 20px;
+    }
+}
+.counter{
+    font-size: xx-large;
+}
+.text-content-2 h1,.text-content-2 h2{
+    margin: 5px auto !important;
+    color: white;
+}
+.counter-symbol{
+    font-size: x-large;
+}
+.counter-desc{
+    font-size: large;
+}
