@@ -10,20 +10,25 @@
     gap: 0px;
     padding: 0px;
 }
+@media (max-width:768px) {
+    .grid-container-2{
+        grid-template-columns: repeat(2,2fr);
+    }
+    
+}
 .grid-item-2{
-    min-width: 106.25px;
+    min-width: 100px;
     display: grid;
     grid-template-columns: 1fr;
-    background-color: #bababa;
     padding: 20px;
     gap: 20px;
     margin: 0px !important;
     padding: 20px;
     background-color: #151410;
 }
-
 /* Ensure each grid item contains text and image side by side */
 .grid-item {
+    min-width: 187.5px;
     display: grid;
     grid-template-columns: 1fr;
     background-color: #bababa;
@@ -73,10 +78,6 @@
 
     .grid-item {
         grid-template-columns: 1fr;
-    }
-
-    .grid-item img {
-        margin-bottom: 20px;
     }
 }
 .counter{
