@@ -55,13 +55,14 @@ nav .logo img {
   width: auto;
   margin-right: 10px;
   border-radius: 50%;
+  margin: 10px 0px;
 }
 @media(max-width:1024px){
-  nav .logo h1{
+  nav .logo p{
     font-size: 30px !important;
   }
 }
-nav .logo h1 {
+nav .logo p {
   font-size: 3rem;
   background: black;
   /* linear-gradient(to right, #b927fc 0%, #2c64fc 100%) */
@@ -148,7 +149,6 @@ nav ul li ul li a:hover {
 }
 .active {
   left: 0;
-  text-decoration: underline;
 }
 
 .menubar ul {
