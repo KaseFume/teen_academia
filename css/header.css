@@ -60,6 +60,8 @@ nav .logo img {
 @media(max-width:1024px){
   nav .logo p{
     font-size: 30px !important;
+    margin: 4px 0px;
+    margin-top: 10px !important;
   }
 }
 nav .logo p {
@@ -69,6 +71,8 @@ nav .logo p {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin: 20px 0px;
+
 }
 
 nav ul {
