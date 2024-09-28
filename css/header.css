@@ -60,8 +60,8 @@ nav .logo img {
 @media(max-width:1024px){
   nav .logo p{
     font-size: 30px !important;
-    margin: 4px 0px;
-    margin-top: 10px !important;
+    margin-top: 15px;
+    margin-bottom: 5px !important;
   }
 }
 nav .logo p {
@@ -104,6 +104,7 @@ nav ul li ul li a:hover {
 .hamburger {
   display: none;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 .hamburger .line {
