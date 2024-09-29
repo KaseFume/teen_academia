@@ -254,3 +254,7 @@ header {
   z-index: 1;
   background-color:#e8e8e8;
 }
+header a{
+  text-decoration: none;
+  color: inherit;
+}
