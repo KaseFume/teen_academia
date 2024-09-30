@@ -59,7 +59,7 @@
 }
 .grid-item-image img{
     width: 100%;
-    border-radius: 20px;
+    border-radius: 50px;
     padding:40px;
 }
 .grid-item p {
@@ -122,3 +122,18 @@
     background-image: linear-gradient(to right, #007bff 100%, #007bff 100%);
     transform: scale(1.02);
   }
+@media (max-width:768px) {
+    .large-view{
+        display: none;
+    }
+    .grid-item-image img{
+        width: 100%;
+        border-radius: 18px;
+        padding:10px;
+    }
+}
+@media (min-width:768px) {
+    .small-view{
+        display: none !important;
+    }
+}
