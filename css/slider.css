@@ -50,7 +50,7 @@ figure.slider img {
     width: 100%;
     height: auto; /* Maintain aspect ratio */
     max-height: 100%; /* Ensure the image does not exceed the height of the figure */
-    object-fit: cover; /* Cover the area while maintaining aspect ratio */
+    object-fit:cover; /* Cover the area while maintaining aspect ratio */
 }
 
 figure.slider figure figcaption {

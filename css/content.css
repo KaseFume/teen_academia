@@ -59,6 +59,8 @@
 }
 .grid-item-image img{
     width: 100%;
+    border-radius: 20px;
+    padding:40px;
 }
 .grid-item p {
     margin-bottom: 20px;
@@ -71,6 +73,7 @@
     border: none;
     cursor: pointer;
 }
+
 
 .grid-item img {
     width: 100%;
@@ -85,6 +88,11 @@
 
     .grid-item {
         grid-template-columns: 1fr;
+    }
+    .cta:hover {
+        background-position: 100% 100%;
+        background-image: linear-gradient(to right, #007bff 100%, #007bff 100%);
+        transform: scale(1.05) !important;
     }
 }
 .counter{
@@ -112,5 +120,5 @@
 .cta:hover {
     background-position: 100% 100%;
     background-image: linear-gradient(to right, #007bff 100%, #007bff 100%);
-    transform: scale(1.05);
+    transform: scale(1.02);
   }
