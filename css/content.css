@@ -137,3 +137,9 @@
         display: none !important;
     }
 }
+.grid-item-large{
+    font-size: 10vh !important;
+}
+.right-align{
+    text-align: right;
+}
