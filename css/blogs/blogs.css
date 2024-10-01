@@ -24,7 +24,7 @@
         flex-direction: column;
     }
     .blog-item-image{
-        width: 70vh;
+        width: 70vh !important;
         margin: 10px auto;
     }
     .blog-post .text-content{
