@@ -41,7 +41,7 @@
         padding-bottom: 20px;
     }
     .blog-container h1{
-        font-size: 6.5vh;
+        font-size: 6.5vh !important;
     }
     .blog-desc{
         margin-bottom: 15px !important;
