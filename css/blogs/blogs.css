@@ -24,13 +24,22 @@
         flex-direction: column;
     }
     .blog-item-image{
-        width: 70vh !important;
+        width: 100% !important;
         margin: 10px auto;
     }
     .blog-post .text-content{
         width: 90%;
-        margin: 5px auto;
+        margin: 0px auto;
         padding-right: 0px !important;
+    }
+    .blog-cta{
+        padding: 0px !important;
+    }
+    .blog-container{
+        padding-bottom: 20px;
+    }
+    .blog-desc{
+        margin-bottom: 15px !important;
     }
 }
 
