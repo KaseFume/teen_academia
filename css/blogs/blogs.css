@@ -1,5 +1,7 @@
 .blog-item-image img{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius:8vh;
     padding:30px;
 }
@@ -24,11 +26,11 @@
         flex-direction: column;
     }
     .blog-item-image{
-        width: 100% !important;
+        width: 90% !important;
         margin: 10px auto;
     }
     .blog-post .text-content{
-        width: 90%;
+        width: 80%;
         margin: 0px auto;
         padding-right: 0px !important;
     }
@@ -85,4 +87,11 @@
         background-image: linear-gradient(to left, #ffffff 50%, #D1B6B6 50%);
         transform: scale(1.05) !important;
     }
+}
+.blog-container h1{
+    margin: 0px !important;
+    text-align: center;
+    font-weight: lighter !important;
+    padding-top: 10px;
+    font-size: 10vh;
 }
