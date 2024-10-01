@@ -1,41 +1,39 @@
 .blog-item-image img{
-    height: 50vh;
-    width: 50vh;
+    width: 100%;
     border-radius:8vh;
     padding:30px;
 }
+@media (max-width:1440px){
+    .blog-item-image{
+        width: 150h;
+    }
+}
+
 .blog-post{
     background-color: rgb(209, 182, 182);
     display: flex;
 }
 .blog-container {
     background-color: rgb(209, 182, 182);
-    margin-left: 20%;
-    margin-right: 20%;
+    background-color: #D1B6B6;
 }
 
 /* As the screen gets smaller, reduce the margin */
-@media (max-width: 1200px) {
-    .blog-container {
-        margin-left: 15%;
-        margin-right: 15%;
+@media (max-width: 600px) {
+    .blog-post {
+        flex-direction: column;
+    }
+    .blog-item-image{
+        width: 70vh;
+        margin: 10px auto;
+    }
+    .blog-post .text-content{
+        width: 90%;
+        margin: 5px auto;
+        padding-right: 0px !important;
     }
 }
 
-@media (max-width: 992px) {
-    .blog-container {
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-}
-
-@media (max-width: 768px) {
-    .blog-container {
-        margin-left: 0;
-        margin-right: 0;
-    }
-}
-    
 .blog-post>.text-content{
     text-align: left;
     padding-right:8vh;
@@ -48,4 +46,34 @@
     height: 15vh;
     margin-top: 10px;
     margin-bottom: 5px;
+}
+.blog-cta {
+    background-image: linear-gradient(to right, #D1B6B6 100%, #D1B6B6 100%);
+    background-size: 200% 100%;
+    background-position: 0% 100%;
+    transition: background-position 1s ease-out, transform 0.2s ease-out;
+    cursor: pointer;
+    transform: scale(1);
+    border: solid 0.2px rgb(255, 255, 255) !important;
+  }
+  
+.blog-cta:hover {
+    background-position: 100% 100%;
+    background-image: linear-gradient(to left, #ffffff 50%, #D1B6B6 50%);
+    transform: scale(1.02);
+    color: #D1B6B6;
+  }
+.blog-cta {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    .blog-cta:hover {
+        background-position: 100% 100%;
+        background-image: linear-gradient(to left, #ffffff 50%, #D1B6B6 50%);
+        transform: scale(1.05) !important;
+    }
 }
