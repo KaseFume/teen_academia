@@ -77,3 +77,9 @@ footer>h4{
     padding: 4px;
     text-align: center;
 }
+footer .team-logo img{
+    width: 80%;
+}
+footer .team-logo{
+    margin: 10px auto;
+}

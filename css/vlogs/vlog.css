@@ -1,0 +1,41 @@
+@media(max-width:2560px){
+    .vlogs-container{
+        margin: 10px 8%;
+    }
+    .vlogs-container{
+        
+    }
+    .video-container{
+    }
+    .video-container iframe{
+        border-radius: 10px 0px 0px 10px;
+        transition: all 0.5s ease-in-out;
+    }
+    .video-container iframe:hover{
+        border-radius: 20px 0px 0px 20px;
+    }
+}
+@media(max-width:1440px){
+    .vlogs-container{
+        margin: 10px 3%;
+    }
+    .vlogs-container{
+        display: flex;
+    }
+}
+@media(max-width:1024px){
+    .vlogs-container{
+        margin: 10px 2%;
+    }
+}
+@media(max-width:768px){
+    .vlogs-container{
+        margin: 8px 1%;
+    }
+    
+}
+@media(max-width:600px){
+    .vlogs-container{
+        margin: 8px 0.8%;
+    }
+}
