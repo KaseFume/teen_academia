@@ -85,3 +85,39 @@
         margin: 8px 0.8%;
     }
 }
+
+.vlog-cta {
+    background-image: linear-gradient(to right, #D1B6B6 100%, #D1B6B6 100%);
+    background-size: 200% 100%;
+    background-position: 0% 100%;
+    transition: background-position 1s ease-out, transform 0.2s ease-out;
+    cursor: pointer;
+    transform: scale(1);
+    border: solid 5px rgb(255, 255, 255) !important;
+    width: 100%;
+    font-size: 4vh;
+  }
+  
+.vlog-cta:hover {
+    background-position: 100% 100%;
+    background-image: linear-gradient(to left, #3B5998 50%, #D1B6B6 50%);
+    transform: scale(1.02);
+    color: #ffffff;
+  }
+.vlog-cta {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 0px;
+    border: none;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    .vlog-cta:hover {
+        background-position: 100% 100%;
+        background-image: linear-gradient(to left, #3B5998 50%, #D1B6B6 50%);
+        transform: scale(1.05) !important;
+    }
+}
+.vlog-social-fb-margin{
+    margin-right: 20px;
+}
