@@ -14,6 +14,7 @@
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-width: 180px;
 
 }
 .card img {
@@ -21,4 +22,15 @@
     height: 100%;    
     object-fit: cover;
     object-position: top center;
+}
+
+.card.review img{
+    object-position: center;
+}
+.explore-title{
+    font-size: 5vw;
+}
+.explore-title p{
+    margin: 10px !important;
+    text-align: center;
 }
