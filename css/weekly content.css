@@ -1,0 +1,24 @@
+.card-container{
+    display:flex;
+    margin: 20px auto;
+    width: 85%;
+    gap: 2vw;   
+    height: 23vh    ;
+    justify-content: space-around;
+    overflow-x:scroll;
+    cursor: grab; /* Change cursor to indicate draggable */
+}
+.card{
+    min-width: 20vw;
+    height: 20vh;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+.card img {
+    width: 100%;
+    height: 100%;    
+    object-fit: cover;
+    object-position: top center;
+}
