@@ -110,9 +110,16 @@
     .video-container{
         width: 90%;
     }
+    .vlog-container{
+        margin: 20px auto;
+        width: 90%;
+    }
     .text-container .desc{
         height: 100px;
         overflow-y: scroll;
+    }
+    .vlog-cta{
+        font-size: 2.5vh;
     }
 }
 
