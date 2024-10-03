@@ -1,0 +1,115 @@
+@media (max-width:2560px){
+    .intro-1{
+        font-size: 5vw;
+        text-align: center;
+    }
+    .intro-2{
+        font-size: 2.5vw;
+        text-align: center;
+        margin: 20px 5% 20px 10%;
+        width: 100%;
+        border-radius: 40px 40px 40px 40px;
+        padding: 5px 50px;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    .intro-3{
+        font-size: 5vh;
+        text-align: center;
+        margin: 20px 10% 20px 5%;
+        width: 100%;
+        border-radius: 40px 40px 40px 40px;
+        padding: 5px 50px;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        justify-content: center;
+    }
+    .intro-2-container{
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .intro-3-container{
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo-container{
+        width: 80%;
+        padding: 5% 0px;
+        margin: 0px 5%;
+        border-radius: 10px;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    .logo-container-2 {
+        width: 80%;
+        padding: 2% 0px;
+        height: 600px;
+        margin: 0px 5%;
+        border-radius: 50px 0px 50px 0px;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        display: flex; /* Use flexbox for centering */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically if needed */
+    }
+    
+    .logo-container-2 img {
+        border-radius: 20px 0px 20px 0px;
+        display: block; /* Make the image a block element */
+        margin: 0 auto; /* Center the image */
+        width: 85%;
+    }
+    
+    .animation-space{
+        margin: 100px;
+    }
+    .no-break{
+        white-space: nowrap;
+    }
+    .intro-4{
+        font-size: 5vh;
+        text-align: center;
+        margin: 20px 5% 20px 10%;
+        width: 100%;
+        border-radius: 40px 40px 40px 40px;
+        padding: 5px 50px;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        justify-content: center;
+    }
+    .logo-container-3 {
+        width: 80%;
+        padding: 2% 0px;
+        height: 600px;
+        margin: 0px 5%;
+        border-radius: 0px 50px 0px 50px;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        display: flex; /* Use flexbox for centering */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically if needed */
+    }
+    .logo-container-3 img {
+        border-radius: 0px 20px 0px 20px;
+        display: block; /* Make the image a block element */
+        margin: 0 auto; /* Center the image */
+        object-fit:cover;
+        width: 85%;
+    }
+    .last-tag{
+        text-align: center;
+        font-size: 2.5vw;
+    }
+}
+@media (max-width:600px) {
+    .intro-2-container{
+        flex-direction: column;
+    }
+    .logo-container{
+        width: 90%;
+        padding: 3% 0px;
+        display: flex;
+    }
+    .logo-container img{
+        width: 70%;
+        margin: 10px auto;
+    }
+}
