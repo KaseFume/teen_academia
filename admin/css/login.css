@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(255, 213, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Centers the container vertically */
+}
+
+.container {
+    margin: 0 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white; /* Adds a background color to the container */
+    border-radius: 10px; /* Rounds the corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    padding: 20px; /* Adds padding inside the container */
+}
+
+.container .image-container {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.container .form-container {
+    font-size: 1.5vw;
+    width: 100%; /* Ensures the form takes full width */
+}
+
+.container .form-container input {
+    width: 100%; /* Full width for input fields */
+    padding: 10px; /* Adds padding inside input fields */
+    margin: 10px 0; /* Adds space between input fields */
+    border: 1px solid #ccc; /* Light border for input fields */
+    border-radius: 5px; /* Rounds the corners of input fields */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.container .form-container input:focus {
+    border-color: rgb(255, 105, 180); /* Changes border color on focus */
+    outline: none; /* Removes default outline */
+}
+
+.container .form-container button {
+    background-color: rgb(255, 105, 180); /* Button color */
+    color: white; /* Text color */
+    border: none; /* Removes default border */
+    border-radius: 5px; /* Rounds the corners of the button */
+    padding: 10px; /* Adds padding inside the button */
+    cursor: pointer; /* Changes cursor to pointer */
+    font-size: 1.5vw; /* Button font size */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.container .form-container button:hover {
+    background-color: rgb(255, 85, 160); /* Darker shade on hover */
+}
