@@ -1,0 +1,172 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 213, 234);
+}
+
+/* Admin panel structure */
+.admin-panel {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 250px;
+    background-color: #f06292;
+    padding: 20px;
+    color: white;
+    border-radius: 0 0 0 12px;
+}
+
+.sidebar-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 20px 0;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: block;
+    padding: 10px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-item a:hover,
+.nav-item.active a {
+    background-color: #d81b60;
+}
+
+/* Main content area styles */
+.main-content {
+    flex-grow: 1;
+    padding: 30px;
+    background-color: rgb(255, 245, 250);
+    border-radius: 0 12px 12px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2rem;
+    color: #f06292;
+}
+
+.btn-new-user {
+    background-color: #f06292;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-new-user:hover {
+    background-color: #d81b60;
+}
+
+/* User Table styles */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f06292;
+    color: white;
+}
+
+td {
+    background-color: #fff;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.btn-edit, .btn-delete {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-edit {
+    background-color: #ffb74d;
+    color: white;
+}
+
+.btn-edit:hover {
+    background-color: #ffa726;
+}
+
+.btn-delete {
+    background-color: #e57373;
+    color: white;
+}
+
+.btn-delete:hover {
+    background-color: #ef5350;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .admin-panel {
+        flex-direction: column;
+    }
+    .sidebar {
+        width: 100%;
+        border-radius: 12px 12px 0 0;
+    }
+    .main-content {
+        border-radius: 0 0 12px 12px;
+    }
+    .header h1 {
+        font-size: 1.5rem;
+    }
+    .table-container table, .table-container th, .table-container td {
+        font-size: 0.9rem;
+    }
+    .profile-pic {
+        width: 30px;
+        height: 30px;
+    }
+}

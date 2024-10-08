@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="css/admin panel.css">
+</head>
+<body>
+    <div class="admin-panel">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h2>Admin Panel</h2>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item active"><a href="admin panel.html">Dashboard</a></li>
+                <li class="nav-item"><a href="display user.html">Users</a></li>
+                <li class="nav-item"><a href="#settings">Settings</a></li>
+                <li class="nav-item"><a href="#reports">Reports</a></li>
+                <li class="nav-item"><a href="#logout">Logout</a></li>
+            </ul>
+        </div>
+
+        <!-- Main content area -->
+        <div class="main-content">
+            <!-- Header -->
+            <div class="header">
+                <h1>Dashboard</h1>
+            </div>
+
+            <!-- Dashboard Content -->
+            <div class="dashboard-content">
+                <!-- Stat Cards -->
+                <div class="stats-cards">
+                    <div class="card">
+                        <h3>Total Users</h3>
+                        <p>1,250</p>
+                    </div>
+                    <div class="card">
+                        <h3>Active Sessions</h3>
+                        <p>145</p>
+                    </div>
+                    <div class="card">
+                        <h3>New Registrations</h3>
+                        <p>24</p>
+                    </div>
+                    <div class="card">
+                        <h3>Reports Generated</h3>
+                        <p>85</p>
+                    </div>
+                </div>
+
+                <!-- Recent Activity -->
+                <div class="recent-activity">
+                    <h2>Recent Activity</h2>
+                    <ul>
+                        <li><strong>AdminUser1</strong> added a new user: <em>John Doe</em></li>
+                        <li><strong>AdminUser2</strong> updated user permissions</li>
+                        <li><strong>AdminUser1</strong> deleted a report</li>
+                        <li><strong>AdminUser3</strong> generated a weekly report</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/admin panel.js"></script>
+</body>
+</html>

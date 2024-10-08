@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - User Management</title>
+    <link rel="stylesheet" href="css/display user.css">
+</head>
+<body>
+    <div class="admin-panel">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h2>Admin Panel</h2>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="admin panel.html">Dashboard</a></li>
+                <li class="nav-item active"><a href="display user.html">Users</a></li>
+                <li class="nav-item"><a href="#settings">Settings</a></li>
+                <li class="nav-item"><a href="#reports">Reports</a></li>
+                <li class="nav-item"><a href="#logout">Logout</a></li>
+            </ul>
+        </div>
+
+        <!-- Main content area -->
+        <div class="main-content">
+            <!-- Header -->
+            <div class="header">
+                <h1>User Management</h1>
+                <button class="btn-new-user">+ Add New User</button>
+            </div>
+
+            <!-- User Table -->
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Select</th>
+                            <th>ID</th>
+                            <th>Username</th>
+                            <th>Password</th>
+                            <th>Profile Pic</th>
+                            <th>Read</th>
+                            <th>Write/Edit</th>
+                            <th>Delete</th>
+                            <th>Role</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Sample row -->
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>123e4567-e89b-12d3-a456-426614174000</td>
+                            <td>admin_user</td>
+                            <td>********</td>
+                            <td><img src="default-avatar.png" alt="Profile Pic" class="profile-pic"></td>
+                            <td><input type="checkbox" checked disabled></td>
+                            <td><input type="checkbox" checked disabled></td>
+                            <td><input type="checkbox" disabled></td>
+                            <td>Admin</td>
+                            <td><button class="btn-edit">Edit</button></td>
+                            <td><button class="btn-delete">Delete</button></td>
+                        </tr>
+                        <!-- Add more rows as necessary -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="js/display user.js"></script>
+</body>
+</html>
