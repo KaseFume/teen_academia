@@ -42,18 +42,18 @@ footer .footer-grid .team-contact-list h3{
         grid-template-columns: 1fr;
     }
     footer .footer-grid .team-contact-list h3{
-        font-size:5vh;
+        font-size:5vw;
     }
     footer .footer-grid .team-contact-list p{
-        font-size: 5vh;
+        font-size: 5vw;
         margin: 2vh;
     }
     footer .footer-grid .team-social-platform p{
-        font-size: 5vh;
+        font-size: 5vw;
         margin: 2vh;
     }
     footer .footer-grid .team-social-platform h3{
-        font-size:5vh;
+        font-size:5vw;
     }
 }
 footer .footer-grid .team-social-platform{

@@ -1,4 +1,10 @@
+body{
+    overflow-x: hidden; 
+}
 @media (max-width:2560px){
+    .mobile-about-us-container{
+        display: none;
+    }
     .intro-1{
         font-size: 5vw;
         text-align: center;
@@ -99,17 +105,44 @@
         font-size: 2.5vw;
     }
 }
-@media (max-width:600px) {
-    .intro-2-container{
-        flex-direction: column;
+@media (max-width:768px){
+    .mobile-about-us-container{
+        display:block;
     }
-    .logo-container{
-        width: 90%;
-        padding: 3% 0px;
+    .about-us-container{
+        display: none;
+    }
+    .about-us-org-mobile{
         display: flex;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        margin: 20px;
+        justify-content: center;align-items: center;
     }
-    .logo-container img{
-        width: 70%;
-        margin: 10px auto;
+    .about-us-org-mobile .img-container-mobile{
+        width: 45%;
+    }
+    .about-us-org-mobile .text-container-mobile{
+        width: 55%;
+        margin: 5px;
+        font-size: 2.5vw;
+    }
+    .about-us-org-mobile.about-us-1 .img-container-mobile img,.about-us-org-mobile.about-us-2 .img-container-mobile img,.about-us-org-mobile.about-us-3 .img-container-mobile img{
+        width: 100%;
+        aspect-ratio: 1/1;
+        border-radius: 25px;
+        object-fit: cover;
+    }
+    .about-us-org-mobile.about-us-1 .text-container-mobile,.about-us-org-mobile.about-us-2 .text-container-mobile,.about-us-org-mobile.about-us-3 .text-container-mobile{
+        font-size: 3vw;
+        overflow-y: scroll;
+
+    }
+    .about-us-org-mobile.about-us-1 .img-container-mobile,.about-us-org-mobile.about-us-2 .img-container-mobile,.about-us-org-mobile.about-us-3 .img-container-mobile{
+        width: 16rem;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
