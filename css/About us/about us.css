@@ -125,7 +125,7 @@ body{
     .about-us-org-mobile .text-container-mobile{
         width: 55%;
         margin: 5px;
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
     .about-us-org-mobile.about-us-1 .img-container-mobile img,.about-us-org-mobile.about-us-2 .img-container-mobile img,.about-us-org-mobile.about-us-3 .img-container-mobile img{
         width: 100%;
@@ -139,7 +139,7 @@ body{
 
     }
     .about-us-org-mobile.about-us-1 .img-container-mobile,.about-us-org-mobile.about-us-2 .img-container-mobile,.about-us-org-mobile.about-us-3 .img-container-mobile{
-        width: 16rem;
+        width: 45%;
         padding: 10px;
         display: flex;
         justify-content: center;
