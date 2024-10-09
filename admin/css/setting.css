@@ -1,0 +1,57 @@
+.dashboard-content {
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #d87093;
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    overflow: hidden; /* Ensures the table respects the border-radius */
+}
+
+.stats-table, .image-slider-table {   
+    width: 100%; /* Ensure the table takes the full width of the container */
+}
+
+.stats-table table, .image-slider-table table { 
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 0; /* Spacing between table cells */
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd; /* Adds border between columns */
+}
+
+tr {
+    background-color: #ffffff; /* Helps to emphasize the border-radius effect */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; /* Ensures items take available space */
+}
+
+.header .add-new-button {
+    margin-left: auto; /* Pushes the button to the right */
+    display: flex; /* Keeps the button flex properties */
+    padding: 0px 20px;
+}
+.header .add-new-button button{
+    padding: 10px 15px;
+    border-radius: 6px;
+    background-color: rgb(255, 42, 113);
+    border-color: rgb(255, 255, 255);
+    color: #ffffff;
+    transition: background-color 0.1s ease-in;
+    width: 15vw;
+}
+.header .add-new-button button:hover{
+    padding: 10px 15px;
+    border-radius: 6px;
+    background-color: rgb(214, 36, 95);
+    border-color: rgb(255, 255, 255);
+    color: #ffffff;
+}

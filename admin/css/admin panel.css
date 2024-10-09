@@ -16,10 +16,10 @@ body {
 /* Admin panel structure */
 .admin-panel {
     display: flex;
-    height: 90vh;
-    width: 80vw;
+    height: 100vh;
+    width: 100vw;
     background-color: #fff;
-    border-radius: 12px;
+    border-radius: 0px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
@@ -35,7 +35,7 @@ body {
 .sidebar-header {
     text-align: center;
     margin-bottom: 30px;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: bold;
 }
 
@@ -67,6 +67,7 @@ body {
     flex-grow: 1;
     padding: 30px;
     background-color: rgb(255, 245, 250);
+    overflow: auto;
 }
 
 header {
