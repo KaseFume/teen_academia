@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logs - Admin Dashboard</title>
+    <link rel="stylesheet" href="css/admin panel.css">
+    <link rel="stylesheet" href="css/logs.css">
+</head>
+<body>
+    <div class="admin-panel">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h2>Admin Panel</h2>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="admin panel.html">Dashboard</a></li>
+                <li class="nav-item"><a href="display user.html">Users</a></li>
+                <li class="nav-item"><a href="setting.html">Settings</a></li>
+                <li class="nav-item active"><a href="logs.html">Logs</a></li>
+                <li class="nav-item"><a href="index.html">Logout</a></li>
+            </ul>
+        </div>
+
+        <!-- Main content area -->
+        <div class="main-content">
+            <!-- Header -->
+            <div class="header">
+                <h1>Logs</h1>
+            </div>
+
+            <!-- Logs Table Content -->
+            <div class="logs-content">
+                <h2>Latest Activity Logs</h2>
+
+                <table class="logs-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>User</th>
+                            <th>Action</th>
+                            <th>Timestamp</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Placeholder rows for logs (to be dynamically generated later) -->
+                        <tr>
+                            <td>1</td>
+                            <td>AdminUser1</td>
+                            <td>Added a new user: John Doe</td>
+                            <td>2024-10-05 14:23:45</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>AdminUser2</td>
+                            <td>Updated user permissions</td>
+                            <td>2024-10-05 13:45:33</td>
+                        </tr>
+                        <!-- Additional rows would be added here -->
+                    </tbody>
+                </table>
+
+                <!-- Pagination controls -->
+                <div class="pagination">
+                    <button class="prev-page">Previous</button>
+                    <span class="page-numbers">Page 1 of 5</span>
+                    <button class="next-page">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/admin panel.js"></script>
+</body>
+</html>
