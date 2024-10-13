@@ -1,5 +1,5 @@
 footer{
-    background-color:#bababa;
+    background-color:#fef5ff;
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
@@ -72,7 +72,7 @@ footer>h4{
     text-align: center;
 }
 .footer-last-text{
-    background-color: #e8e8e8;
+    background-color: #fce8fe;
     margin: 0vh 0vh !important;
     padding: 4px;
     text-align: center;
